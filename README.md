@@ -5,6 +5,6 @@ The idea behind this was to avoid having to manually check for violations, remem
 
 An email account has to be created for this script to work, and your own address and password needs to be supplied. I have hidden mine for obvious reasons.
 
-I would recommend for solutions like this, to create a new email for these purposes. *I DO NOT CONDONE USING YOUR OWN PERSONAL EMAIL ADDRESS AS THIS CAN BE SUBJECT TO SECURITY RISKS!*
+I would recommend for solutions like this, to create a new email for these purposes. **I DO NOT CONDONE USING YOUR OWN PERSONAL EMAIL ADDRESS AS THIS CAN BE SUBJECT TO SECURITY RISKS!**
 
 Website can be found [here](https://www.sca.gov.ae/en/open-data/publishing-names-of-violators/violations-committed-by-investors.aspx?page=1#page=1).
