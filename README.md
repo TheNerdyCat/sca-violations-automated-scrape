@@ -17,4 +17,4 @@ Website can be found [here](https://www.sca.gov.ae/en/open-data/publishing-names
 
 ## Requirements
  - Can be installed using anaconda prompt and the requirements.txt file. Type `conda install --file requirements.txt`
- - Packages that are used but should be included in Python alread are ssl, smtplib, time.
+ - Packages that are used but should be included in Python alread are `ssl`, `smtplib`, `time`.
