@@ -15,7 +15,14 @@ except:
 page_link = 'https://www.sca.gov.ae/en/open-data/publishing-names-of-violators/violations-committed-by-investors.aspx?page=1#page=1'
 # Start web driver - error message if update is needed
 try:
+
+
+
+# EDIT YOUR FILE PATH TO CHROME DRIVER BELOW!
     browser = webdriver.Chrome('C:/Users/Edward Sims/Downloads/chromedriver.exe')
+
+
+
 except:
     ctypes.windll.user32.MessageBoxW(0, "Please update web driver.", "Web Driver Error", 1)
 
@@ -36,13 +43,24 @@ Subject: SCA Violations Update
 Click below to view the update:
 https://www.sca.gov.ae/en/open-data/publishing-names-of-violators/violations-committed-by-investors.aspx?page=1#page=1"""
 # Compare current table to previous. Send notification if different.
+
+# EDIT PASSWORD PATH BELOW IF NEEDED
+password = open("password.txt", "r")
+
 if table_content_current != table_content_previous:
     try:
         port = 465  # For SSL
         smtp_server = "smtp.gmail.com"
-        sender_email = "noreply.thenerdycat@gmail.com"  # Enter your address
-        receiver_email = "noreply.thenerdycat@gmail.com"  # Enter receiver address
-        password = ''
+        sender_email = "noreply.thenerdycat@gmail.com"  
+
+
+
+# EDIT RECEIVER ADDRESS(ES) HERE
+        receiver_email = "noreply.thenerdycat@gmail.com"  
+
+
+
+        password = password
         message = email_content
         context = ssl.create_default_context()
         with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
@@ -53,4 +71,5 @@ if table_content_current != table_content_previous:
 # Save updated table to file
 table_content_updated = open("Output.txt", "w")
 table_content_updated.write(table_content_current)
+password.close()
 table_content_updated.close()

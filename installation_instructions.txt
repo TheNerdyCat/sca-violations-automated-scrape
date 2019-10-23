@@ -1,0 +1,40 @@
+# Installation Instructions
+
+## Python 3.x (Windows)
+
+ - https://www.python.org/downloads/
+ - Once downloaded, open the .exe. MAKE SURE 'Add Python 3.x to PATH' BOX IS TICKED.
+ - Click the install button, and allow access.
+ - To check proper installation type 'python' into Command Line. If installed correctly, no error message should be returned. 
+
+
+## Git 2.x (Windows)
+
+ - https://git-scm.com/download/win
+ - Allow access. 
+ - Ensure 'Git Bash Here' is ticked
+ - Ensure 'Associate .git* configuration files with the default text editor' is ticked
+ - Ensure 'Associate .sh files to be run with Bash' is ticked
+ - Follow recommended options and finish installation.
+
+
+## pip
+
+ - Should be installed with Python installation.
+ - Type 'pip' into Command Line. If installed correctly, no error message should be returned. 
+ - If installation does not complete, follow steps set out at https://pip.pypa.io/en/stable/reference/pip_install/
+
+## Anaconda
+
+ - https://www.anaconda.com/distribution/#windows
+ - Follow download link to Python 3.x
+ - If asked about Windows secured apps, select 'Install Anyway'
+ - Follow recommended setup.
+
+
+## Selenium Chrome driver
+
+ - https://chromedriver.chromium.org/downloads
+ - Select relevant Chrome version.
+ - Save the web driver as 'chromedriver.exe'
+ - I keep this file in my Downloads folder. 
