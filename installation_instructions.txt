@@ -38,3 +38,10 @@
  - Select relevant Chrome version.
  - Save the web driver as 'chromedriver.exe'
  - I keep this file in my Downloads folder. 
+ - DON'T CLICK THE .exe FILE. Just leave it in the folder as is.
+ 
+ ## Password.txt
+ 
+  - You'll need to set up your own password for the email address.
+  - In the repository, add a .txt file names 'password.txt.' 
+  - In password.txt, write your password for the email address used.
